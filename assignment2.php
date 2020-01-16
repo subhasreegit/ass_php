@@ -2,9 +2,10 @@
 <html>
     <head>
         <title>My Page</title>
-        <script src="//code.jquery.com/jquery-1.9.1.js"></script> 
+        <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+	    <!-- Through this function we are trying to concatinae each word sumultaniously. at first i take the value as null. then as the user give the input the updated data is concatinated simultaniously.-->
 	<script>
-		function SetFullName()
+	function SetFullName()
         {
          document.getElementById("Artist_fullname").value="";
          document.getElementById("Artist_fullname").value=document.getElementById("Artist_fname").value+" "+document.getElementById("Artist_lname").value;
@@ -24,6 +25,7 @@
 
             <input type="file" name="file"><br><br>
             <input type="submit"  name="upload"><br>
+		<!--through the pattern we are restricting the input inserted field. and through the submit button we are triggering the page to do the action and go to the next page. -->
         </form>
         
     </body>    
