@@ -73,7 +73,8 @@
 			}?>
 			
 		</table>	 
-		<?php// printed the contact no. given by the user with+91 
+		<?php
+	// printed the contact no. given by the user with+91 
 			$data10=$_POST['ph_no'];
 			echo "<br>";
 			echo "Contact Number:";
